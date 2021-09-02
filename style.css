@@ -1,0 +1,564 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.corb{
+	background: rgb(111,111,111);
+	background: linear-gradient(180deg, rgb(211, 211, 211) 50%, rgb(109, 109, 109) 100%);
+}
+
+header {
+	background: rgb(111,111,111);
+	background: linear-gradient(180deg, rgba(171,171,171,1) 0%, rgb(202, 202, 202) 100%);
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 120px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 10px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: mediumblue;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: rgb(0, 139, 253);
+	text-decoration: underline;
+	transition: 0.20s ;
+}
+
+/*  */
+ 
+
+
+a.cursed{
+	text-decoration: none;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	color: rgb(0, 139, 253);
+	border-color:rgb(0, 139, 253);
+	transition: 0.25s ;
+	transform: scale(1.05);
+}
+
+.produtos li:active {
+	border-color: mediumblue;
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+
+
+
+
+
+
+/* css da pagina contato
+
+
+*/
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+
+}
+
+form label, form p {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	
+}
+
+.inputp{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 0 25px;
+	width: 45%;
+	border-radius: 10px;
+	border: 1px solid black;
+}	
+
+
+
+		
+.enviarinfo{
+	margin: 0 0 20px;
+	padding: 20px 0 25px;
+	width: 45%;	
+	background-color: rgb(0, 16, 29);
+	font-size: 22px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+	
+	
+	
+
+}
+
+.enviarinfo:hover{
+	background: rgb(108,105,164);
+	background: linear-gradient(90deg, rgba(108,105,164,1) 0%, rgba(37,126,88,1) 35%, rgba(0,212,255,1) 100%);
+	font-weight: bold;
+	color: mintcream;
+	
+	cursor: pointer !important;
+	transform: scale(1.05);
+	transition: 0.5s ;
+}
+
+
+.checkb{
+	margin: 20px 0 ;
+
+}
+
+p.textom{
+	margin: 20px 0;
+
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #615e5e;
+	color: white;
+	font-weight: bold;
+}
+
+td,th{
+	border: 1px solid black;
+	padding: 8px 15px;
+	
+}
+
+
+/* 
+
+form label, 
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+
+
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* css da página inicial */
+.banner {
+	width:100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0 0 1em;
+	clear: left;
+	
+}
+.titulo-principal:hover{
+	text-shadow: 3px 5px 2px #474747, 0px 0px 1px rgba(91,101,206,0.03);
+}
+
+/* .titulo-principal::before{
+	content: "[";
+}
+
+.titulo-principal::after{
+	content: "]";
+	
+}
+	 */
+
+
+/* p::first-line{
+	font-weight: bold;
+} */
+
+h2.titulo-principal{
+	padding: 30px;
+}
+
+h3.titulo-principal{
+	padding: 30px;
+}
+
+
+.principal{
+	padding: 3em;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: calc(30% - 110px);
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+
+
+.conteudob{
+	width: 640px;
+	margin: 0 auto;
+	padding: 2em;
+	
+
+}
+
+.listab{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens{
+	line-height: 1.5;
+}
+
+/*  .itens:nth-child(){
+
+	} 
+*/
+
+.itens:first-child {
+	font-weight: bold; 
+
+}
+
+.itens::before{
+	content:"❂";
+}
+
+.imagemb {
+	width: 60%;
+	opacity: 0.3;
+	box-shadow: 0px 0px 15px 10px #000000;
+}
+
+/* .imagemb {
+	width: 60%;
+	opacity: 0.3;
+	box-shadow: 0px 0px 15px 10px #000000. 10px 10px 10px 40px ;
+} */
+
+
+.imagemb:hover{
+	opacity: 1;
+	transition: 0.6s;
+}
+
+
+section.mapa{
+	padding: 3em 0;
+
+}
+.mapa p{
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.mapac{
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+.video{
+	width: 560px;
+	margin: 2em auto;
+}
+
+/* color: rgba(0,0,0,0.6)
+		aqui o rgbA vai dar opacidade no final				 */
+
+/* 
+main > p{
+	background: red;
+} 
+nesse caso aqui ele iria pegar todos o p (paragrafos) filhos direto da tag main, apenas
+o que estiver na identação <main>
+
+img + p { 
+    balckground: blue;
+}
+
+aqui ele vai selecionar o 1 paragrafo que vem logo depois da tag img
+
+img ~ p { 
+    balckground: blue;
+
+	aqui ele vai selecionar todos os paragrafos que vem logo depois da tag img
+
+
+*/
+
+/* img ~ p{
+	background: blueviolet;
+}
+
+.principal p:not(#missao){
+	background: #FEFE44;
+}
+ */
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+	main{
+		width: auto;
+	}
+	.caixa{
+		width: auto;
+
+	}
+
+	.principal{
+		width: auto;
+	}
+
+	.conteudob{
+		width: auto;
+	}
+
+	.mapac{
+		width: auto;
+
+	}
+
+	.video{
+		width: auto;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+	.listab, .conteudob{
+		width: 100%;
+	}
+	.imagemb{
+		margin: 20px;
+	}
+
+	.produtos{
+		width: 100%;
+		
+	} 
+
+	.produtos li {
+		display:inline-table;
+		text-align: center;
+		width: 100%;
+		vertical-align: auto;
+		margin: 1.5% 1.5%;
+		padding: 60px 20px;
+		box-sizing: border-box;
+		border: 2px solid #000000;
+		border-radius: 10px;
+	}
+
+
+
+
+	form {
+		margin: 40px 0;
+	
+	}
+	
+	form label, form p {
+		display:block;
+		font-size: 20px;
+		margin: 0 0 10px;
+		
+	}
+	
+	.inputp{
+		display: block;
+		margin: 0 0 20px;
+		padding: 10px 0 25px;
+		width: 100%;
+		border-radius: 10px;
+		border: 1px solid black;
+	}	
+	
+	
+	
+			
+	.enviarinfo{
+		margin: 0 0 20px;
+		padding: 20px 0 25px;
+		width: 100%;	
+		background-color: rgb(0, 16, 29);
+		font-size: 22px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-align: center;
+		border: none;
+		border-radius: 10px;
+		
+		
+		
+	
+	}
+	
+	.enviarinfo:hover{
+		background: rgb(108,105,164);
+		background: linear-gradient(90deg, rgba(108,105,164,1) 0%, rgba(37,126,88,1) 35%, rgba(0,212,255,1) 100%);
+		font-weight: bold;
+		color: mintcream;
+		cursor: pointer;
+		
+		transform: scale(1.05);
+		transition: 0.5s ;
+	}
+	
+	
+	
+	.tabelas{
+		width: 100%;
+	}
+	
+	table {
+		margin: 20px 0 40px;
+		width: 100%;
+	}
+	
+	
+
+
+
+}

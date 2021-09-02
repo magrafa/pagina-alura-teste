@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Contato-Barbearia Alura</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="logo.png" alt="Logo da Barbearia Alura"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<!-- tag do formulario -->
+			<form>
+				<!-- inupt type serve para o usuario inserir as coisas -->
+				<!-- tem que usar o label junto com input -->
+				<label for="nomeesobrenome">Nome completo:</label>
+				<input type="text" id="nomeesobrenome" class="inputp">
+
+				<label for="email">Email:</label>
+				<input type="text" id="email" class="inputp">
+
+				<label for="telefone">Telefone:</label>
+				<input type="text" id="telefone" class="inputp">
+			
+				<label for="mensagem">Deixe sua mensagem:</label>
+				<textarea cols="50" rows="10" id="mensagem"class="inputp"></textarea>
+				
+				<div>
+					<p>Como prefere ter o nosso contato?</p>
+					<label form="radioemail"><input type="radio" name="contato" value="email" id="radioemail">Email</label>
+					
+
+					<!-- A propriedade name só pode ser "preenchida" uma única vez, por isso
+						que, quando eu seleciono um dos itens, ele desmarca o outro, mantendo somente um selecionado. -->
+
+					<label form="radiocelular"><input type="radio" name="contato" value="telefone" id="radiocelular">Telefone
+					</label>
+					
+					<label form="radiowpp"><input type="radio" name="contato" value="wpp" id="radiowpp">Whatsapp</label>
+					
+
+					
+				</div>
+				<div class="tabelas">
+					<p class="textom">Qual o melhor periodo do dia para ser atendido?</p>
+					<select class="tabela">
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+
+					</select>
+				</div>
+				
+
+				
+
+				<label class="checkb"><input type="checkbox">Gostaria de receber mais novidades?</label>
+				
+				<input class="enviarinfo" type="submit" value="Enviar informações">
+
+			</form>
+			
+
+			<!-- 	A tag table, que representa a tabela
+					A tag tr, que representa a linha da tabela
+					A tag td, que representa a célula da tabela
+					A tag thead, que representa o cabeçalho da tabela
+					A tag tbody, que representa o corpo da tabela
+					A tag th, que representa a célula do cabeçalho da tabela
+					A tag tfoot, que representa o rodapé da tabela -->
+			<table>
+
+				<thead>
+					<tr>
+
+						<td>Dias</td>
+						<td>Horários</td>
+						
+					</tr>	
+
+				</thead>
+				
+				<tbody>
+					<tr>
+
+						<td>Segunda</td>
+						<td>9h ~ 20h</td>
+		
+						
+					</tr>
+					
+					<tr>
+		
+						<td>Terça</td>
+						<td>8h ~ 20h</td>
+		
+		
+					</tr>
+		
+					<tr>
+						<td>Quarta</td>
+						<td>7h ~ 20</td>
+		
+		
+					</tr>
+
+				</tbody>
+				
+
+			</table>
+
+		</main>
+
+		
+
+		<footer>
+			<img src="logo-branco.png" alt="Logo da Barbearia Alura">
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2021</p>
+		</footer>
+	</body>
+</html>
